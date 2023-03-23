@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio - Tamires Camargo Soares</title>
     <link rel="stylesheet" href="./main.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Tamires Camargo Soares</h1>
         <nav>
-            <ul>
+            <ul class="topo">
                 <li>
                     <a href="#about" >About me</a>
                 </li>
@@ -31,62 +30,77 @@
     </header>
     <section id="about">
         <div class="container">
-            <img class="foto" src="./imagens/eutamires.jpg" alt="Minha foto" /> 
-            <div>
+            <img class="foto" src="./imagens/eutamires.jpg" alt="Minha foto" />
+        </div>
+        <div class="container">
+            <header class="card-header">
                 <h2>Breve Apresentação</h2>
-                <p>
-Formada em administração de empresas, pós-graduada em MBA gestão de produção e Docência em ensino superior. Profissional certificada CPA 10. Com experiência na área administrativa financeira, comercial, fiscal e atendimento ao cliente. Trabalhei com elaboração de relatórios gerenciais, fluxo de caixa, conciliação bancária; tesouraria; faturamento e apuração de retenção de impostos; lançamentos contábeis; escrituração fiscal e entrega de obrigações acessórias. Vivência em mapeamento de processos, fluxogramas e procedimentos de homologação comercial no sistema SAP Ariba, entre outros. Conhecimento de metodologias Lean Seis Sigma, ciclo PDCA e DMAIC.
-</p>
-<p>
-Aprimorando conhecimentos na área de tecnologia, criação e desenvolvimento com aprendizado em linguagem de programação MySQL, HTML, CSS, Javascript e banco de dados (ERP). Possuo certificação no sistema de gestão Ágil com Scrum Product Owner.
-E realizo atualmente o curso de Desenvolvedor Full Stack Python, pela plataforma da EBAC.
-</p>
-<p>
-Habilidades comportamentais: Atenção analítica e crítica, organização, auto busca de aprendizado, trabalho em equipe, boa comunicação e criatividade.
-</p>
-<p>
-Informações adicionais: Autora do canal Amplitude da Pesquisa (um projeto desenvolvido com objetivo de compartilhar metodologias de trabalho científico e agregar conhecimento acadêmico de forma abrangente!)
-Escritora do livro; “Estratégias que agregam valor nos segmentos do Agronegócio no Brasil”. Ed. NEA, 2017. Idioma: Inglês em nível intermediário.
+            </header>
+        </div>
+            <div class="container">
+                <p class="card-text">
+                Formada em administração de empresas, pós-graduada em MBA gestão de produção e Docência em ensino superior. Profissional certificada CPA 10. Com experiência na área administrativa financeira, comercial, fiscal e atendimento ao cliente. Trabalhei com elaboração de relatórios gerenciais, fluxo de caixa, conciliação bancária; tesouraria; faturamento e apuração de retenção de impostos; lançamentos contábeis; escrituração fiscal e entrega de obrigações acessórias. Vivência em mapeamento de processos, fluxogramas e procedimentos de homologação comercial no sistema SAP Ariba, entre outros. Conhecimento de metodologias Lean Seis Sigma, ciclo PDCA e DMAIC.
+                Aprimorando conhecimentos na área de tecnologia, criação e desenvolvimento com aprendizado em linguagem de programação MySQL, HTML, CSS, Javascript e banco de dados (ERP). Possuo certificação no sistema de gestão Ágil com Scrum Product Owner.
+                E realizo atualmente o curso de Desenvolvedor Full Stack Python, pela plataforma da EBAC.
+                Habilidades comportamentais: Atenção analítica e crítica, organização, auto busca de aprendizado, trabalho em equipe, boa comunicação e criatividade.
+                Informações adicionais: Autora do canal Amplitude da Pesquisa (um projeto desenvolvido com objetivo de compartilhar metodologias de trabalho científico e agregar conhecimento acadêmico de forma abrangente!)
+                Escritora do livro; “Estratégias que agregam valor nos segmentos do Agronegócio no Brasil”. Ed. NEA, 2017. Idioma: Inglês em nível intermediário.
                 </p>
             </div>
-        </div>
     </section>
-            <nav>
-            <section id="sports">
-                <section>
-                    <div class="container">
-                        <h2>Vivência Profissional</h2>
-                    <div class="articles">
-                </section>
+<div>
+    <nav>
+        <section id="topics">
                 <div class="container">
-                <div class="articles">
-            <article>
-                <img src="./imagens/financas.jpg" alt="administrativo" />
-                    <br /> 
-                        <h3>Rotinas administrativas</h3>
-                        <p>
+                    <h2>Vivência Profissional</h2>
+                </div>
+        </section>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <article class="card">
+                        <img id="imagemcard" src="./imagens/financas.jpg" alt="administrativo" />
+                        <br /> 
+                        <header class="card-header">
+                            <h3>Rotinas administrativas</h3>
+                        </header>
+                        <p class="card-text">
                         Como breve resumo acerca deste assunto, posso dizer que a administração de uma empresa contém diversos departamentos distintos; entre eles o departamento comercial, de recursos humanos, compras, financeiro e outros.
                         À medida que as organizações expandem sua atuação, naturalmente surgem mais atividades a serem conduzidas, a estrutura organizacional é expandida 
                         </p>
-            </article>
-            <article>
-                <img src="./imagens/equipe.jpg" alt="trabalho em equipe" />
-                    <br /> 
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <article class="card">
+                        <img id="imagemcard" src="./imagens/equipe.jpg" alt="trabalho em equipe" />
+                    <br />
+                    <header class="card-header"> 
                         <h3>Trabalho em equipe</h3>
-                        <p>
+                    </header>
+                        <p class="card-text">
                         O resultado da união de um time que soube trabalhar em conjunto e emprenhado na criação de um ambiente colaborativo. Uma equipe forte é constituída por pessoas que entenderam à importância de sua colaboração de forma coletiva, pois tem consciência que seu trabalho impacta e é impactado pelo trabalho seguinte.
                         </p>
-            </article>
-            <article>
-                <img src="./imagens/tecnologia.jpg" title="tecnologia" />
-                    <br /> 
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <article class="card">
+                        <img id="imagemcard" src="./imagens/tecnologia.jpg" title="tecnologia" />
+                    <br />
+                    <header class="card-header">  
                         <h3>Iniciação tecnológica</h3>
-                        <p>
+                    </header>
+                        <p class="card-text">
                         Se eu tivesse que definir esta seção em apenas uma palavra, eu diria “futuro”! A tecnologia está presente nos seguimentos mais fundamentais do nosso cotidiano, algumas vezes em níveis maior ou menor, mas o fato é que estamos cercados! 
                         Aprender sobre tecnologia, não se limita apenas aqueles aparelhos ou recursos futurísticos, mas ela engloba também dados, estudos e trabalho de análise.
                         </p>
-            </article>
-        </nav>
+                    </article>
+                </div>
+            </div>
+    </nav>
+</div>
         <section id="contact">
         <div class="container">
             <h2>Contato</h2>
@@ -123,5 +137,7 @@ Escritora do livro; “Estratégias que agregam valor nos segmentos do Agronegó
                 &copy; Tamires Camargo - Todos os direitos reservados - 2022
             </P>
         </div>
-</body>
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+        <script src="./lib/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

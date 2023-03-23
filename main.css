@@ -31,7 +31,7 @@ section h2 {
 }
 
 header nav li {
-    display:inline;
+    display: inline;
     margin-left: 30px;
     color: azure;
     font-size: 18px;
@@ -65,6 +65,8 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+    margin-top: 10px;
+    
 }
 
 section {
@@ -167,7 +169,7 @@ header li a:hover {
 }
 
 .articles article {
-    width: 30%;
+    width: 100%;
 }
 
 section {
@@ -177,7 +179,6 @@ section {
 section h2,
 .articles article {
     margin-bottom: 16px;
-
 }
 
 .articles article h3 {
@@ -200,11 +201,11 @@ section h2 {
 }
 
 
-#sports {
+#topics {
     background-color: rgb(216, 213, 213);
 }
 
-#sports h2 {
+#topics h2 {
     margin-right: 100px;
 }
 
@@ -228,4 +229,50 @@ footer {
     background-color:  rgb(2, 53, 53);
     color: #fff;
     padding: 16px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 8px;
+    }
+
+.card-text {
+    font-size: small;
+    max-width: 60%;
+    text-justify: auto;
+    margin-left: 10px;
+}
+
+header,
+section h2,
+section h3 {
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+    img {
+        max-width: 260px;
+        max-height: 260px;
+    }
+    .topo {
+        display: none;
+    }
+    .foto {
+        max-width: 278px;
+        max-height: 284px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 260px;
+    }
 }
